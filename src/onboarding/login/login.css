@@ -39,7 +39,7 @@ a {
 }
 
 .login-page .form {
-    width: 550px;
+    width: 500px;
     margin: 0 auto;
     background: #FFFFFF;
     box-shadow: 0px 4px 55px #000000;
@@ -71,18 +71,18 @@ input:focus {
     outline: 1px solid #FB9129;
     border: 1px solid #FB9129;
 }
-input[type=checkbox]:hover{
+.login-page input[type=checkbox]:hover{
     border: none;
     outline: none;
 }
-input[type=checkbox] {
+.login-page input[type=checkbox] {
     width: 18px;
     height: 18px;
     accent-color: #FB9129;
     color: #fff;
     
 }
-input[type=checkbox]::after{
+.login-page input[type=checkbox]::after{
     content: "";
     color: #FFFFFF;
 }

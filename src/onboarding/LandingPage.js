@@ -10,7 +10,7 @@ export default function LandingPage() {
     return (
         <div className="landing-page" id="root">
             <div className="p-4">
-               <a href="" className="d-flex align-items-center mx-5" >
+               <a  href="https://active-farmers-website.netlify.app/" target="_blank" rel="noreferrer" className="d-flex align-items-center mx-5" >
                <Icon  icon="material-symbols:arrow-back-rounded" style={{fontSize: "20px", margin: "0 5px"}}/>
                 Back to Homepage
                 </a> 
